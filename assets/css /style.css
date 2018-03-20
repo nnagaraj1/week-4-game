@@ -1,0 +1,109 @@
+body {
+    color: black;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    color: maroon;
+    text-align: center;
+}
+
+#game {
+    background-image: url('http://imgc.allpostersimages.com/images/P-473-488-90/28/2810/CQIOD00Z/posters/World-Map.jpg');
+    background-repeat: repeat-y;
+    line-height: 30px;
+    font-size: 34px;
+    text-align: left;
+    height: 100%;
+}
+
+#instructions {
+    border-top-style: double;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    background:lemonchiffon;
+    font-family: Courier New, Courier, monospace;
+}
+
+p {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+#redcrystal {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-style: dashed;
+}
+
+#yellowcrystal {
+    height: 600px;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-style: dashed;
+}
+
+#bluecrystal {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-style: dashed;
+}
+
+#purplecrystal {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-style: dashed;
+}
+
+#scores {
+    border-top-style: double;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    background: paleturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 0%;
+}
+footer {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    display: block; 
+    border-top-style: dotted;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    background-color: grey;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;   
+}
+
+// Small devices
+@media screen {
+    (max-width: 640px)
+position: static;
+}
+
+// Medium devices
+@media screen {
+    (max-width: 768px)
+}
+
+// Large devices
+@media screen {
+    (max-width: 980px)
+}

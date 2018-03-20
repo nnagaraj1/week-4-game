@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css /style.css">
+    <h1>Indiana Jones and the Kingdom of the Crystal Collector
+            <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    </h1>
+</head>
+<body background = 'http://imgc.allpostersimages.com/images/P-473-488-90/28/2810/CQIOD00Z/posters/World-Map.jpg'>
+    <audio controls>
+        <source src ='Indiana_Jones_Theme_Song_HD[Mp3Converter.net].mp3' type = 'audio/mpeg'>
+            <div id="musicControls" class="text-center">
+                <button class="btn btn-warning btn-xs theme-button">
+                    <span class="glyphicon glyphicon-music"></span> Play Theme!</button>
+                <button class="btn btn-dark btn-xs pause-button">
+                    <span class="glyphicon glyphicon-pause"></span> Pause Song</button>
+            </div>
+        </audio>
+    <div id= "game">
+        <section id= "instructions">
+            <p>You will be given a random number at the start of the game. There are 4 crystals below. By clicking on a crystal,
+            you will add a specific amount of points to the total score.</p>
+            <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the
+            random number.</p>
+             <p>The value of each crystal is hidden until you click on it. Each time when the game starts, the game will change the 
+            values of each crystal.</p>
+        </section>
+        <div class = "buttons">
+            <button class="crystals" id=  "red" value="3">
+                <img src= "assets/images/redcrystal.jpg" id="redcrystal"></button>
+            <button class="crystals" id= "yellow" value="6">
+                <img src= "assets/images/yellowcrystal.jpg" id="yellowcrystal"></button>  
+            <button class="crystals" id= "blue" value="9">
+                <img src= "assets/images/bluecrystal.jpg" id="bluecrystal"></button>
+            <button class="crystals" id="purple" value="12">   
+        <img src= "assets/images/purplecrystal.jpg" id="purplecrystal"></button>    
+        </div>
+        <section id= "scores">
+            <p>Target Score:
+                <span id= 'targetScore'>0</span>
+            </p>
+            <p>Wins:
+                <span id= 'wins'>0</span>
+            </p>
+            <p>Losses:
+                <span id= 'losses'>0</span>
+            </p>
+            <p>Total Scores:
+                <span id= 'totalScores'>0</span>
+            </p>
+        </section>
+    </div>
+    <script src = "assets/javascript/game.js"></script>
+    <footer>Copyright ©2018 by Neeni Nagaraj</footer>
+</body>
+</html>
